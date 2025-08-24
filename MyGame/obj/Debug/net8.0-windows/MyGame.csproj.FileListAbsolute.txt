@@ -1,0 +1,12 @@
+C:\Users\joshu\OneDrive\Documents\Stride Projects\MyGame\MyGame\bin\Debug\net8.0-windows\MyGame.deps.json
+C:\Users\joshu\OneDrive\Documents\Stride Projects\MyGame\MyGame\bin\Debug\net8.0-windows\MyGame.dll
+C:\Users\joshu\OneDrive\Documents\Stride Projects\MyGame\MyGame\bin\Debug\net8.0-windows\MyGame.pdb
+C:\Users\joshu\OneDrive\Documents\Stride Projects\MyGame\MyGame\obj\Debug\net8.0-windows\MyGame.csproj.AssemblyReference.cache
+C:\Users\joshu\OneDrive\Documents\Stride Projects\MyGame\MyGame\obj\Debug\net8.0-windows\MyGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joshu\OneDrive\Documents\Stride Projects\MyGame\MyGame\obj\Debug\net8.0-windows\MyGame.AssemblyInfoInputs.cache
+C:\Users\joshu\OneDrive\Documents\Stride Projects\MyGame\MyGame\obj\Debug\net8.0-windows\MyGame.AssemblyInfo.cs
+C:\Users\joshu\OneDrive\Documents\Stride Projects\MyGame\MyGame\obj\Debug\net8.0-windows\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\joshu\OneDrive\Documents\Stride Projects\MyGame\MyGame\obj\Debug\net8.0-windows\MyGame.dll
+C:\Users\joshu\OneDrive\Documents\Stride Projects\MyGame\MyGame\obj\Debug\net8.0-windows\refint\MyGame.dll
+C:\Users\joshu\OneDrive\Documents\Stride Projects\MyGame\MyGame\obj\Debug\net8.0-windows\MyGame.pdb
+C:\Users\joshu\OneDrive\Documents\Stride Projects\MyGame\MyGame\obj\Debug\net8.0-windows\ref\MyGame.dll

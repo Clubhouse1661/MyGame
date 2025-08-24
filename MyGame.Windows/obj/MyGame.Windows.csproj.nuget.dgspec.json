@@ -1,0 +1,159 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\joshu\\OneDrive\\Documents\\Stride Projects\\MyGame\\MyGame.Windows\\MyGame.Windows.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\joshu\\OneDrive\\Documents\\Stride Projects\\MyGame\\MyGame.Windows\\MyGame.Windows.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joshu\\OneDrive\\Documents\\Stride Projects\\MyGame\\MyGame.Windows\\MyGame.Windows.csproj",
+        "projectName": "MyGame.Windows",
+        "projectPath": "C:\\Users\\joshu\\OneDrive\\Documents\\Stride Projects\\MyGame\\MyGame.Windows\\MyGame.Windows.csproj",
+        "packagesPath": "C:\\Users\\joshu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joshu\\OneDrive\\Documents\\Stride Projects\\MyGame\\MyGame.Windows\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joshu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\joshu\\OneDrive\\Documents\\Stride Projects\\MyGame\\MyGame\\MyGame.csproj": {
+                "projectPath": "C:\\Users\\joshu\\OneDrive\\Documents\\Stride Projects\\MyGame\\MyGame\\MyGame.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.119/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\Stride Projects\\MyGame\\MyGame\\MyGame.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joshu\\OneDrive\\Documents\\Stride Projects\\MyGame\\MyGame\\MyGame.csproj",
+        "projectName": "MyGame",
+        "projectPath": "C:\\Users\\joshu\\OneDrive\\Documents\\Stride Projects\\MyGame\\MyGame\\MyGame.csproj",
+        "packagesPath": "C:\\Users\\joshu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joshu\\OneDrive\\Documents\\Stride Projects\\MyGame\\MyGame\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\joshu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Stride.Core.Assets.CompilerApp": {
+              "include": "Build, BuildTransitive",
+              "target": "Package",
+              "version": "[4.2.0.2381, )"
+            },
+            "Stride.Engine": {
+              "target": "Package",
+              "version": "[4.2.0.2381, )"
+            },
+            "Stride.Navigation": {
+              "target": "Package",
+              "version": "[4.2.0.2381, )"
+            },
+            "Stride.Particles": {
+              "target": "Package",
+              "version": "[4.2.0.2381, )"
+            },
+            "Stride.Physics": {
+              "target": "Package",
+              "version": "[4.2.0.2381, )"
+            },
+            "Stride.UI": {
+              "target": "Package",
+              "version": "[4.2.0.2381, )"
+            },
+            "Stride.Video": {
+              "target": "Package",
+              "version": "[4.2.0.2381, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.119/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
