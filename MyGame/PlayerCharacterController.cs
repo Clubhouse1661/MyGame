@@ -258,7 +258,7 @@ namespace MyGame
 
         private void Jump()
         {
-            if (!isGrounded) return;
+            if (!isGrounded || JumpHeight <= 0) return;
 
             // Calculate jump velocity to reach desired height
             float jumpVelocity = MathF.Sqrt(2 * -Gravity * JumpHeight);
@@ -376,22 +376,31 @@ namespace MyGame
                 _ => "Idle"
             };
 
-            // Play the animation (this is a simplified approach - in a real implementation,
-            // you'd want to use animation blending and state machines)
+            // Play the animation with error handling
             try
             {
                 if (animationComponent.Animations.ContainsKey(animationName))
                 {
                     animationComponent.Play(animationName);
                 }
-            }
-            catch
-            {
-                // Fallback to idle if animation not found
-                if (animationComponent.Animations.ContainsKey("Idle"))
+                else
                 {
-                    animationComponent.Play("Idle");
+                    // Try alternative animation names
+                    var alternatives = new[] { "idle", "Idle", "default", "Default" };
+                    foreach (var alt in alternatives)
+                    {
+                        if (animationComponent.Animations.ContainsKey(alt))
+                        {
+                            animationComponent.Play(alt);
+                            break;
+                        }
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                // Log error but don't crash the game
+                Console.WriteLine($"Animation error: {ex.Message}");
             }
         }
 
